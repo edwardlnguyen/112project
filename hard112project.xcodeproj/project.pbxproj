@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96C4B5B18BCA4EC009B512F /* InventoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96C4B5A18BCA4EC009B512F /* InventoryViewController.m */; };
+		D96C4B5E18BCA9CB009B512F /* ShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96C4B5D18BCA9CB009B512F /* ShoppingListViewController.m */; };
 		D9872EC518BC9E4B0054FADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9872EC418BC9E4B0054FADB /* Foundation.framework */; };
 		D9872EC718BC9E4B0054FADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9872EC618BC9E4B0054FADB /* CoreGraphics.framework */; };
 		D9872EC918BC9E4B0054FADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9872EC818BC9E4B0054FADB /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D96C4B5918BCA4EC009B512F /* InventoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InventoryViewController.h; path = ../InventoryViewController.h; sourceTree = "<group>"; };
+		D96C4B5A18BCA4EC009B512F /* InventoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InventoryViewController.m; path = ../InventoryViewController.m; sourceTree = "<group>"; };
+		D96C4B5C18BCA9CB009B512F /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingListViewController.h; path = ../ShoppingListViewController.h; sourceTree = "<group>"; };
+		D96C4B5D18BCA9CB009B512F /* ShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingListViewController.m; path = ../ShoppingListViewController.m; sourceTree = "<group>"; };
 		D9872EC118BC9E4B0054FADB /* hard112project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hard112project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9872EC418BC9E4B0054FADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9872EC618BC9E4B0054FADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +123,10 @@
 				D9872ED618BC9E4B0054FADB /* Main.storyboard */,
 				D9872ED918BC9E4B0054FADB /* ViewController.h */,
 				D9872EDA18BC9E4B0054FADB /* ViewController.m */,
+				D96C4B5C18BCA9CB009B512F /* ShoppingListViewController.h */,
+				D96C4B5D18BCA9CB009B512F /* ShoppingListViewController.m */,
+				D96C4B5918BCA4EC009B512F /* InventoryViewController.h */,
+				D96C4B5A18BCA4EC009B512F /* InventoryViewController.m */,
 				D9872EDC18BC9E4B0054FADB /* Images.xcassets */,
 				D9872ECB18BC9E4B0054FADB /* Supporting Files */,
 			);
@@ -250,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9872EDB18BC9E4B0054FADB /* ViewController.m in Sources */,
+				D96C4B5B18BCA4EC009B512F /* InventoryViewController.m in Sources */,
+				D96C4B5E18BCA9CB009B512F /* ShoppingListViewController.m in Sources */,
 				D9872ED518BC9E4B0054FADB /* AppDelegate.m in Sources */,
 				D9872ED118BC9E4B0054FADB /* main.m in Sources */,
 			);
@@ -460,6 +472,7 @@
 				D9872EF518BC9E4B0054FADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9872EF618BC9E4B0054FADB /* Build configuration list for PBXNativeTarget "hard112projectTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				D9872EF818BC9E4B0054FADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
